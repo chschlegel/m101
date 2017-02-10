@@ -1,0 +1,33 @@
+/* CSS Beispiel M101 */
+
+* {
+    font-family: Calibri, Helvetica, sans-serif; /* Schriftart */
+    font-size: 1.1em; /* Schriftgrösse */
+}
+
+body { 
+    background-color: lightblue;
+    margin: 50px;
+} 
+
+h1, h2 {
+    font-family: Consolas;
+}
+
+h1 {
+    font-size: 200%; /* Schriftgrösse */
+}
+
+h2 {
+    font-size: 150%; /* Schriftgrösse */
+}
+
+#text1 {
+    font-size: 200%; /* Schriftgrösse */
+    color: darkred;
+}
+
+.text2 {
+    font-size: 80%; 
+    color: darkblue;
+}
