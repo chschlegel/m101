@@ -1,33 +1,64 @@
 /* CSS Beispiel M101 */
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Pangolin:400&subset=latin,latin-ext);
+
 * {
-    font-family: Calibri, Helvetica, sans-serif; /* Schriftart */
-    font-size: 1.1em; /* Schriftgrösse */
+    font-family: Roboto, Ubuntu, Calibri, Helvetica, sans-serif; /* Schriftart */
+    font-weight: 100;
+    font-size: 1.2em; /* Schriftgrösse */
 }
 
 body { 
     background-color: lightblue;
     margin: 50px;
+    padding: 20px;
 } 
 
 h1, h2 {
-    font-family: Consolas;
+    font-family: Pangolin;
+    font-weight: 800;
 }
 
 h1 {
-    font-size: 200%; /* Schriftgrösse */
+    font-size: 3em; /* Schriftgrösse */
 }
 
 h2 {
-    font-size: 150%; /* Schriftgrösse */
+    font-size: 2em; /* Schriftgrösse */
+
 }
 
 #text1 {
     font-size: 200%; /* Schriftgrösse */
-    color: darkred;
+    color:darkslateblue;
 }
 
 .text2 {
-    font-size: 80%; 
+    font-size: 120%; 
     color: darkblue;
+    font-weight: 800;
+    
 }
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+nav li:nth-child(1) { background-color: #058; }
+nav li:nth-child(2) { background-color: #069; }
+nav li:nth-child(3) { background-color: #07b; }
+nav li:nth-child(4) { background-color: #08c; }
