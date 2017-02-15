@@ -3,53 +3,55 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Pangolin:400&subset=latin,latin-ext);
-
 * {
-    font-family: Roboto, Ubuntu, Calibri, Helvetica, sans-serif; /* Schriftart */
-    font-weight: 100;
-    font-size: 1.2em; /* Schriftgrösse */
+    font-family: Roboto, Ubuntu, Calibri, Helvetica, sans-serif;
+    /* Schriftart */
+    font-weight: 200;
+    font-size: 1.5rem;
+    /* Schriftgrösse */
 }
 
-body { 
+body {
     background-color: lightblue;
-    margin: 50px;
-    padding: 20px;
-} 
+    margin: 10px;
+    padding: 10px;
+}
 
-h1, h2 {
+h1,
+h2 {
     font-family: Pangolin;
     font-weight: 800;
 }
 
 h1 {
-    font-size: 3em; /* Schriftgrösse */
+    font-size: 3rem;
+    /* Schriftgrösse */
 }
 
 h2 {
-    font-size: 2em; /* Schriftgrösse */
-
+    font-size: 2rem;
+    /* Schriftgrösse */
 }
 
 #text1 {
-    font-size: 200%; /* Schriftgrösse */
-    color:darkslateblue;
+    font-size: 200%;
+    /* Schriftgrösse */
+    color: darkslateblue;
 }
 
 .text2 {
-    font-size: 120%; 
+    font-size: 1.2rem;
     color: darkblue;
     font-weight: 800;
-    
 }
 
-nav li {
-    display: inline;
-}
 
-nav li a {
-    text-decoration: none;
-    color:white;
-    padding: 20px;
+/* Navigation */
+
+nav {
+    height: 10vh;
+    background-color: darkblue;
+    padding: 30px;
 }
 
 ul {
@@ -58,7 +60,41 @@ ul {
     padding: 0;
 }
 
-nav li:nth-child(1) { background-color: #058; }
-nav li:nth-child(2) { background-color: #069; }
-nav li:nth-child(3) { background-color: #07b; }
-nav li:nth-child(4) { background-color: #08c; }
+nav li {
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+nav li:nth-child(1) {
+    background-color: #058;
+}
+
+nav li:nth-child(2) {
+    background-color: #069;
+}
+
+nav li:nth-child(3) {
+    background-color: #07b;
+}
+
+nav li:nth-child(4) {
+    background-color: #08c;
+}
+
+footer {
+    background-color: darkolivegreen;
+    width: 50vw;
+}
+
+#copyright a {
+    font-family: Pangolin;
+    font-size: 1rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+}
